@@ -12,6 +12,6 @@ public class DPropertyTest {
     public static void main(String[] args) throws InterruptedException {
         String test = System.getProperty("test");
         System.out.println("test:"+test);
-        TimeUnit.DAYS.sleep(1L);
+        TimeUnit.DAYS.sleep(11L);
     }
 }
